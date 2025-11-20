@@ -50,3 +50,23 @@ myArr.splice(1, 0, 88); // it will remove 1 element from index 1 and add 88 at i
 console.log(myArr);// [0, 88, 1, 2, 3, 4, 5]
 
 
+// 2 Element marge using concat
+
+const marvel_heroes = ["thor", "ironman", "spiderman"];
+const dc_heroes = ["superman", "batman", "flash"];
+const kc_heroes = ["shaktiman", "doga", "nagraj"];
+
+// const all_heroes = marvel_heroes.concat(dc_heroes);
+// console.log(all_heroes); //['thor', 'ironman', 'spiderman', 'superman', 'batman', 'flash']
+
+const all_new_heroes = [...marvel_heroes, ...dc_heroes, ...kc_heroes];
+console.log(all_new_heroes); // ['thor', 'ironman', 'spiderman', 'superman', 'batman', 'flash', 'shaktiman', 'doga', 'nagraj']
+
+
+// const arr1 = [22, 33,44,55];
+// const arr2 = [66,77,88,99];
+
+// const all_array = arr1.concat(arr2);
+// console.log(all_array); // [22, 33, 44, 55, 66, 77, 88, 99]
+
+
