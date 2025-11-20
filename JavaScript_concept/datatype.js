@@ -13,3 +13,5 @@ console.log(valueInNumber);
 // score = "100" => 100
 // "100ee" => NAN
 // true => 1, flase => 0
+// null => Nan
+// undefined => Nan
