@@ -70,3 +70,13 @@ console.log(all_new_heroes); // ['thor', 'ironman', 'spiderman', 'superman', 'ba
 // console.log(all_array); // [22, 33, 44, 55, 66, 77, 88, 99]
 
 
+const another_array =  [1,2,3, [4,5,6],7, [6,7, [4,5]]]; 
+const flat_array = another_array.flat(Infinity);
+console.log(flat_array);
+
+console.log(Array.isArray("Krishna"));// false
+console.log(Array.isArray([1,2,3]));// True
+
+console.log(Array.from("Krishna"));// convert stringg to array 
+
+
