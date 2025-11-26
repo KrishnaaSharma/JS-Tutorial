@@ -55,4 +55,5 @@ const merged = { ...obj1, ...obj2 };
 // Extract only values
 const values = Object.values(merged);
 
-console.log(values);
+console.log(values);// ['a', 'b', 'a', 'b']
+
