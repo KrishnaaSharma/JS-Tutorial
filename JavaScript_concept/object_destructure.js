@@ -1,4 +1,4 @@
-// object de-structuring
+// object de-structuring- Object is a data structure used to store data in key-value pairs.
 
 // Without de-structuring
 // const jsuser = {
@@ -11,7 +11,8 @@
 // console.log(jsuser.name);// Krishna
 
 
-// with de-structuring
+// with de-structuring-  Destructuring is a JavaScript feature to extract values from objects into variables in a cleaner way.
+
 
 // const jsuser2 = {
 //     name : "Krishna",
@@ -34,4 +35,6 @@ const jsuser2 = {
 }
 
 const {name, address : {city, district}}= jsuser2;
-console.log(city, district);// thaene mumbai
+console.log(city, district);// thane mumbai
+
+
