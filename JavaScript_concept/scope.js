@@ -31,4 +31,6 @@ greet();
 }
 
 
-console.log(v);
+console.log(v);// error not accessible outside the block 
+
+// var is not block scoped
